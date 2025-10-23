@@ -1,4 +1,4 @@
-# Kickstarter Tracker
+# Monitor Increase in number of Kickstarter Backers
 
 A monitoring tool for tracking backer counts on Kickstarter projects. This application periodically fetches your Kickstarter project page to monitor backer growth and provides audio notifications when new backers are detected.
 
