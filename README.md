@@ -101,5 +101,5 @@ kickstarter_tracker/
 ## Troubleshooting
 
 - **Audio not working**: Ensure `espeak` is installed: `sudo apt install espeak -y`
-- **Fetching failures**: Verify your Kickstarter URL is correct and accessible. Make sure the sleep intervals are generous, such as 5 or 10 minutes.
+- **Fetching failures**: Verify your Kickstarter URL is correct and accessible. Make sure the sleep intervals are very generous and respectful of Kickstarter's servers, such as 5 or 10 minute intervals.
 - **Permission errors**: Make sure `run.sh` is executable: `chmod +x run.sh`
