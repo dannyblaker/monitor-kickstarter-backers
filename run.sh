@@ -6,8 +6,8 @@ if [ -f .env ]; then
     source .env
     set +a
 else
-    echo ".env file not found! Using default sleep duration of 10 seconds."
-    SLEEP_SECONDS=600
+    echo ".env file not found! Using default sleep duration of 30 minutes."
+    SLEEP_SECONDS=1800
 fi
 
 while true; do

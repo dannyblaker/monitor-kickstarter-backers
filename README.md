@@ -34,7 +34,8 @@ It uses a combination of Microsoft Playwright, Python and Bash scripts.
 
 3. **Install Node.js dependencies**:
    ```bash
-   npm install
+   npm install dotenv
+   npm init playwright@latest
    ```
 
 4. **Set up configuration files**:
@@ -71,7 +72,7 @@ Create a `.env` file in the project root with the following variables:
 
 ```env
 KICKSTARTER_URL=https://www.kickstarter.com/projects/your-project-url
-SLEEP_SECONDS=600
+SLEEP_SECONDS=1800
 ```
 
 ### Data Storage
@@ -101,5 +102,5 @@ kickstarter_tracker/
 ## Troubleshooting
 
 - **Audio not working**: Ensure `espeak` is installed: `sudo apt install espeak -y`
-- **Fetching failures**: Verify your Kickstarter URL is correct and accessible. Make sure the sleep intervals are very generous and respectful of Kickstarter's servers, such as 5 or 10 minute intervals.
+- **Fetching failures**: Verify your Kickstarter URL is correct and accessible. Make sure the sleep intervals are very generous and respectful of Kickstarter's servers, such as 30 minute or 1 hour intervals.
 - **Permission errors**: Make sure `run.sh` is executable: `chmod +x run.sh`
